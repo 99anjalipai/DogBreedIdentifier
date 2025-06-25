@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ConfigureActivity"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Configure Changes"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="22sp"/>
+
+        <EditText
+            android:layout_marginTop="16dp"
+            android:id="@+id/edit_address_ip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_top"
+            android:textAlignment="center"
+            android:hint="SERVER IP"
+            android:padding="15dp" />
+
+        <EditText
+            android:id="@+id/edit_address_path"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_bottom"
+            android:textAlignment="center"
+            android:hint="PHP FILES DIR"
+            android:padding="15dp" />
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:text="Continue"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

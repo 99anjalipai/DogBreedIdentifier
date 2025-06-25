@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">Dog Detection</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="instruction_1">You can either choose to click a gog\'s picture or upload a dog image from your gallery.</string>
+    <string name="instruction_2">Click on "View" for information about the various dog breads.</string>
+    <string name="uploaded_image">Uploaded image</string>
+    <string name="confidence_default">Confidence: 0%</string>
+    <string name="looks_like">Looks like,</string>
+    <string name="predicted_breed_image">Predicted breed image</string>
+    <string name="breed_name">Breed Name</string>
+    <string name="confidence">Confidence: 0%</string>
+    <string-array name="breeds">
+        <item>Maltese</item>
+        <item>Scottish Deerhound</item>
+        <item>Afghan Houmd</item>
+        <item>Barmese Mountain Dog</item>
+        <item>Barmese Mountain Dog 2</item>
+        <item>affenpinscher</item>
+        <item>afghan_hound</item>
+        <item>african_hunting_dog</item>
+        <item>airedale</item>
+        <item>american_staffordshire_terrier</item>
+        <item>appenzeller</item>
+        <item>australian_terrier</item>
+        <item>basenji</item>
+        <item>basset</item>
+        <item>beagle</item>
+        <item>bedlington_terrier</item>
+        <item>bernese_mountain_dog</item>
+        <item>black-and-tan_coonhound</item>
+        <item>blenheim_spaniel</item>
+        <item>bloodhound</item>
+        <item>bluetick</item>
+        <item>border_collie</item>
+        <item>border_terrier</item>
+        <item>borzoi</item>
+        <item>boston_bull</item>
+        <item>bouvier_des_flandres</item>
+        <item>boxer</item>
+        <item>brabancon_griffon</item>
+        <item>briard</item>
+        <item>brittany_spaniel</item>
+        <item>bull_mastiff</item>
+        <item>cairn</item>
+        <item>cardigan</item>
+        <item>chesapeake_bay_retriever</item>
+        <item>chihuahua</item>
+        <item>chow</item>
+        <item>clumber</item>
+        <item>cocker_spaniel</item>
+        <item>collie</item>
+        <item>curly-coated_retriever</item>
+        <item>dandie_dinmont</item>
+        <item>dhole</item>
+        <item>dingo</item>
+        <item>doberman</item>
+        <item>english_foxhound</item>
+        <item>english_setter</item>
+        <item>english_springer</item>
+        <item>entlebucher</item>
+        <item>eskimo_dog</item>
+        <item>flat-coated_retriever</item>
+        <item>french_bulldog</item>
+        <item>german_shepherd</item>
+        <item>german_short-haired_pointer</item>
+        <item>giant_schnauzer</item>
+        <item>golden_retriever</item>
+        <item>gordon_setter</item>
+        <item>great_dane</item>
+        <item>great_pyrenees</item>
+        <item>greater_swiss_mountain_dog</item>
+        <item>groenendael</item>
+        <item>ibizan_hound</item>
+        <item>irish_setter</item>
+        <item>irish_terrier</item>
+        <item>irish_water_spaniel</item>
+        <item>irish_wolfhound</item>
+        <item>italian_greyhound</item>
+        <item>japanese_spaniel</item>
+        <item>keeshond</item>
+        <item>kelpie</item>
+        <item>kerry_blue_terrier</item>
+        <item>komondor</item>
+        <item>kuvasz</item>
+        <item>labrador_retriever</item>
+        <item>lakeland_terrier</item>
+        <item>leonberg</item>
+        <item>lhasa</item>
+        <item>malamute</item>
+        <item>malinois</item>
+        <item>maltese_dog</item>
+        <item>mexican_hairless</item>
+        <item>miniature_pinscher</item>
+        <item>miniature_poodle</item>
+        <item>miniature_schnauzer</item>
+        <item>newfoundland</item>
+        <item>norfolk_terrier</item>
+        <item>norwegian_elkhound</item>
+        <item>norwich_terrier</item>
+        <item>old_english_sheepdog</item>
+        <item>otterhound</item>
+        <item>papillon</item>
+        <item>pekinese</item>
+        <item>pembroke</item>
+        <item>pomeranian</item>
+        <item>pug</item>
+        <item>redbone</item>
+        <item>rhodesian_ridgeback</item>
+        <item>rottweiler</item>
+        <item>saint_bernard</item>
+        <item>saluki</item>
+        <item>samoyed</item>
+        <item>schipperke</item>
+        <item>scotch_terrier</item>
+        <item>scottish_deerhound</item>
+        <item>sealyham_terrier</item>
+        <item>shetland_sheepdog</item>
+        <item>shih-tzu</item>
+        <item>siberian_husky</item>
+        <item>silky_terrier</item>
+        <item>soft-coated_wheaten_terrier</item>
+        <item>staffordshire_bullterrier</item>
+        <item>standard_poodle</item>
+        <item>standard_schnauzer</item>
+        <item>sussex_spaniel</item>
+        <item>tibetan_mastiff</item>
+        <item>tibetan_terrier</item>
+        <item>toy_poodle</item>
+        <item>toy_terrier</item>
+        <item>vizsla</item>
+        <item>walker_hound</item>
+        <item>weimaraner</item>
+        <item>welsh_springer_spaniel</item>
+        <item>west_highland_white_terrier</item>
+        <item>whippet</item>
+        <item>wire-haired_fox_terrier</item>
+        <item>yorkshire_terrier</item>
+
+
+    </string-array>
+
+</resources>

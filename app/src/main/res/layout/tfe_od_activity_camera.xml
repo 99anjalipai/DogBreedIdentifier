@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_above="@id/text_status"
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="org.tensorflow.demo.CameraActivity"
+            android:background="@drawable/button"
+            android:padding="8dp"/>
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_above="@id/button_detect"
+            android:id="@+id/text_status"
+            android:text="Click On Detect"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_marginTop="16dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/button_detect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Detect"
+            android:textColor="@color/colorPrimary"
+            android:textSize="17sp"
+            android:background="@drawable/button"
+            android:foreground="?android:attr/selectableItemBackground"/>
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
