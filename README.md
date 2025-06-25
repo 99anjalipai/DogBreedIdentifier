@@ -184,7 +184,7 @@ Apache 2.0. See `LICENSE` for full text.
 
 | Upload                      | Prediction Result            |
 |-----------------------------|------------------------------|
-| ![](screenshot/image1.jpg) | ![](screenshot/afghan.png)  |
+| ![](screenshot/pic1.jpg) | ![](screenshot/afghan.png)  |
 | ![](screenshot/image.jpg)  | ![](screenshot/maltese.png) |
 
 ---
